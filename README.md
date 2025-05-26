@@ -14,13 +14,14 @@ A production-ready FastAPI-based Automatic Speech Recognition (ASR) service usin
 1. **Clone the repository**
 ```bash
 git clone https://github.com/Sreekar50/Audio_to_text_convertor-NVIDIA-NeMo.git
-cd fastapi-asr-nemo
+cd Audio_to_text_convertor-NVIDIA-NeMo
 ```
 
 2. **Generate onxx file**
 ```bash
-# first place the .nemo file inside model folder and then run following script from model folder
+# first place the .nemo file inside model folder and then run following script from inside model folder
 python export_to_onnx.py
+# a .onnx and token.txt files will be generated
 ```
 
 3. **Build the Docker image**
