@@ -5,7 +5,7 @@ A production-ready FastAPI-based Automatic Speech Recognition (ASR) service usin
 
 ### Prerequisites
 
-- Docker and Docker Compose
+- Docker 
 - Python 3.12+ (for local development)
 - Audio files in WAV format (16kHz, 5-10 seconds)
 
@@ -13,7 +13,7 @@ A production-ready FastAPI-based Automatic Speech Recognition (ASR) service usin
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Sreekar50/Audio_to_text_convertor-NVIDIA-NeMo-.git
+git clone https://github.com/Sreekar50/Audio_to_text_convertor-NVIDIA-NeMo.git
 cd fastapi-asr-nemo
 ```
 
